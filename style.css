@@ -138,7 +138,7 @@ h3,
 }
 
 .task-input {
-  width: 226px
+  width: 226px;
 }
 
 .delete-img {
@@ -153,17 +153,18 @@ h3,
 
 /* Completed */
 .completed-task-label {
-  text-decoration: line-through; color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
 .task-item .task-input {
-  display: none
+  display: none;
 }
 
 .task-item.edit-mode .task-input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-item.edit-mode .task-label {
